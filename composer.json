@@ -1,0 +1,19 @@
+{
+    "name": "hp/bienesraices",
+    "description": "creando un proyecto orientado a objeto",
+    "type": "projet",
+    "authors": [
+        {
+            "name": "Josue",
+            "email": "isaac9900.jc@gamil.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "App\\" : "./clases"
+        }
+    },
+    "require": {
+        "intervention/image": "^2.7"
+    }
+}
